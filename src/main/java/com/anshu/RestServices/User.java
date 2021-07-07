@@ -30,15 +30,15 @@ public class User {
 		
 	}
 	
-	@OneToMany(mappedBy = "user")
-	private List<Post> posts;
+	//@OneToMany(mappedBy = "user")
+	//private List<Post> posts;
 
-	public List<Post> getPosts() {
-		return posts;
-	}
+	/*
+	 * public List<Post> getPosts() { return posts; }
+	 */
 
 	public void setPosts(List<Post> posts) {
-		this.posts = posts;
+		//this.posts = posts;
 	}
 
 	public User(Integer id, String name, Date date) {

@@ -13,9 +13,9 @@ public class Post {
 	
 	private String description;
 	
-	@ManyToOne(fetch=FetchType.LAZY)
+	//@ManyToOne(fetch=FetchType.LAZY)
 	
-	private User user;
+	//private User user;
 	
 	@Id
 	@GeneratedValue
